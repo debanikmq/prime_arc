@@ -30,7 +30,7 @@ class SensorNode {
         };
 
         // console.log(`[WS] Broadcasting: ${JSON.stringify(message)}`);
-        // broadcastMessage(message);
+        broadcastMessage(message);
       }
     );
 
